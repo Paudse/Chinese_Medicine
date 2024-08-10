@@ -1,6 +1,7 @@
 
 folder = "./Chinese_Medicine_Note/"
-file = "方劑001"
+# file = "方劑001"
+file = "穴位001"
 
 ###
 foler_file_name = folder + file + ".txt"
