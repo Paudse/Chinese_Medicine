@@ -1,7 +1,8 @@
 
 folder = "./Chinese_Medicine_Note/"
 # file = "方劑001"
-file = "穴位001"
+# file = "穴位001"
+file = "治療方法001"
 
 ###
 foler_file_name = folder + file + ".txt"
@@ -32,7 +33,7 @@ def test(foler_file_name):
 
 		if i%3 == 0:
 			de.append(data[i].replace('\n', ''))
-		if i%3 == 2:
+		if i%3 == 1:
 			ch.append(data[i].replace('\n', ''))
 
 	# for j in range (0,len(de)):
